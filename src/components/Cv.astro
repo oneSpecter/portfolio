@@ -10,8 +10,8 @@ const hasCv = siteConfig.education && siteConfig.education.length > 0;
             <p class="text-center font-black text-lg mb-4"> 
                 Curriculum Vitae:
             </p> 
-            <div class="flex justify-center mb-8">
-                <a href="../../public/Cv.pdf" target="_blank" class="bg-transparent text-black px-6 py-3 rounded-lg shadow-md hover:bg-gray-800 hover:text-white transition-colors duration-300">
+            <div class="flex justify-center mb-8" style={`--accent-color: ${siteConfig.accentColor}`}>
+                <a href="../../public/Cv.pdf" target="_blank" class="bg-transparent text-[var(--accent-color)] px-6 py-3 rounded-lg shadow-md hover:bg-gray-800 transition-colors duration-300">
                     vuoi un pdf?
                 </a>
             </div>

@@ -5,11 +5,15 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 
 {
   hasProjects && (
-    <section id="projects" class="p-8 sm:p-12 md:p-16 lg:p-24">
+    <section
+      id="projects"
+      style={`--accent-color: ${siteConfig.accentColor}; --dkbg-color: ${siteConfig.dkbackgroundColor};`}
+      class="p-8 sm:p-12 md:p-16 lg:p-24 bg-[#f5f5f5] dark:bg-[var(--dkbg-color)]"
+    >
       <div>
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start ">
           <div class="lg:col-span-4">
-            <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-black dark:text-white">
               Projects
             </h2>
             <div
@@ -34,7 +38,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                   <div class="group relative">
                     <Component
                       {...linkProps}
-                      class={`block relative p-4 sm:p-6 md:p-8 bg-gray-50 rounded-xl sm:rounded-2xl border border-gray-200 transition-all duration-300 ${
+                      class={`block relative p-4 sm:p-6 md:p-8 bg-white dark:bg-[#f5f5f5] rounded-xl sm:rounded-2xl border border-gray-200 transition-all duration-300 ${
                         project.link
                           ? "hover:bg-white hover:shadow-xl hover:border-gray-300 hover:-translate-y-1"
                           : ""
@@ -72,7 +76,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                         </div>
 
                         <p
-                          class={`text-base sm:text-lg text-gray-600 leading-relaxed ${project.link ? "pr-12 sm:pr-14 md:pr-16" : ""}`}
+                          class={`text-base sm:text-lg text-black leading-relaxed ${project.link ? "pr-12 sm:pr-14 md:pr-16" : ""}`}
                         >
                           {project.description}
                         </p>
@@ -82,7 +86,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                             {project.skills.map((skill) => (
                               <span
                                 class={`px-2.5 sm:px-3 py-1 sm:py-1.5 bg-gray-900 text-white rounded-md sm:rounded-lg text-xs sm:text-sm font-medium transition-all duration-300 ${
-                                  project.link ? "group-hover:bg-gray-800" : ""
+                                  project.link ? "group-hover:bg-[var(--accent-color)]" : ""
                                 }`}
                               >
                                 {skill}

@@ -1,9 +1,9 @@
 export const siteConfig = {
   name: "Andrea Blasetti",
-  title: "Er peggio down",
+  title: "Studente di informatica",
   description: "Portfolio website of Andrea Blasetti",
   accentColor: "#7C3AED",
-  dkbackgroundColor: "#000015",
+  dkbackgroundColor: "#000023",
   social: {
     email: "andreaablasetti@gmail.com",
     linkedin: "https://linkedin.com/in/",

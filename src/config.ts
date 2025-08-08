@@ -11,8 +11,8 @@ export const siteConfig = {
     github: "https://github.com/",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Sono Andrea Blasetti, appassionato di informatica e tecnologie, con un background che unisce competenze tecniche e capacità relazionali. Attualmente studio Informatica presso La Sapienza, dove coltivo il mio interesse per la programmazione e l’innovazione digitale. Parallelamente, ho maturato esperienze lavorative in contesti diversi: dalla gestione completa di un locale come addetto alla ristorazione, al ruolo di assistente bagnante, fino a servizi di babysitting e tutoraggio privato. Questi percorsi mi hanno permesso di sviluppare organizzazione, problem solving, spirito di adattamento e comunicazione efficace. Lo sport ha avuto un ruolo fondamentale nella mia formazione personale: il calcio e, soprattutto, cinque anni di pallanuoto agonistica mi hanno insegnato disciplina, lavoro di squadra e resilienza. Mi considero una persona curiosa, veloce nell’apprendere e motivata a crescere, sempre pronta a mettersi in gioco per raggiungere obiettivi ambiziosi.",
+  skills: ["Java", "React", "Node.js", "Python", "MongoDB"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
@@ -69,24 +69,32 @@ export const siteConfig = {
     },
   ],
   education: [
-    {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      {
+      school: "Diploma di Maturità Scientifica",
+      degree: "Liceo Scientifico Pacinotti-Archimede",
+      dateRange: "2019-2024",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Diploma con voto 79/100",
+        "Studente-atleta con media voto 8/10",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Università Sapienza di Roma",
+      degree: "Laura in Informatica (in corso)",
+      dateRange: "2025-Present",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Media voto 31/30",
+        "Corso di laurea triennale in Informatica",
+      ],
+    },
+    {
+      school: "Accademia informatica",
+      degree: "Developer Certificate",
+      dateRange: "04/2025 - 12/2025",
+      achievements: [
+        "670 ore di corso",
+        "Esame finale con voto 2000/30",
+        "Sviluppo web Java + Angular",
       ],
     },
   ],

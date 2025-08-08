@@ -1,3 +1,5 @@
+import Cv from "./components/Cv.astro";
+
 export const siteConfig = {
   name: "Andrea Blasetti",
   title: "Studente di informatica",
@@ -98,4 +100,9 @@ export const siteConfig = {
       ],
     },
   ],
+  Cv: [{
+    title: "Vuoi un .pdf?",
+    link: "/Cv.pdf",
+    download: "Andrea Blasetti Cv.pdf",
+  }]
 };

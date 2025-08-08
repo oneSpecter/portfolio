@@ -10,22 +10,23 @@ const hasCv = siteConfig.education && siteConfig.education.length > 0;
             style={`--accent-color: ${siteConfig.accentColor}; --dkbg-color: ${siteConfig.dkbackgroundColor};`}
             class="p-8 sm:p-12 md:p-16 lg:p-24 bg-[#f5f5f5] dark:bg-[var(--dkbg-color)]"
         >
-            <div>
-                <p class="text-center font-black dark:text-white text-lg mb-4">
+            <div class="flex flex-col items-center mb-8">
+                <p class="font-black dark:text-white text-lg mb-4 text-center">
                     Curriculum Vitae:
                 </p>
-                <div
-                    class="flex justify-center mb-8"
-                    style={`--accent-color: ${siteConfig.accentColor}; --dkbg-color: ${siteConfig.dkbackgroundColor};`}
-                >
+                {siteConfig.Cv.map((cv) => (
                     <a
-                        href="/Cv.pdf"
-                        download="Andrea Blasetti Cv.pdf"
+                        href={cv.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Download CV"
+                        title="Download CV"
+                        download={cv.download}
                         class="bg-white text-[var(--accent-color)] px-6 py-3 rounded-lg shadow-md hover:bg-[var(--accent-color)] hover:text-white transition-colors duration-300"
                     >
-                        vuoi un pdf?
+                        {cv.title}
                     </a>
-                </div>
+                ))}
             </div>
         </section>
     )

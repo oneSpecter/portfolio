@@ -17,61 +17,64 @@ export const siteConfig = {
   skills: ["Java", "React", "Node.js", "Python", "MongoDB"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Harmoninq",
       description:
         "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      link: "https://github.com/oneSpecter/harmoninq.git",
+      skills: ["Node.js", "Python", "REST API", "User Authentication", "Testing", "Full-stack Development"]
+
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Spiccibot",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "SpicciBot è un bot Telegram per la gestione delle spese e delle entrate personali. Permette agli utenti di registrare movimenti, visualizzare resoconti, e gestire preferiti (movimenti ricorrenti).",
+      link: "https://github.com/oneSpecter/SpicciBot.git",
+      skills: ["Python", "Telegram Bot API", "SQLite", "Data Visualization"],
     },
     {
-      name: "ExtensionKit",
+      name: "Be Cyber project",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Ho creato e gestito un canale YouTube dedicato a Tech, raggiungendo [560 iscritti / 272.709 visualizzazioni]. Ho curato ideazione, produzione, montaggio e promozione dei video, ottimizzando i contenuti per l’algoritmo di YouTube e interagendo con la community.",
+      link: "https://www.youtube.com/@becyber",
+      skills: ["Content Creation", "Video Editing", "YouTube SEO", "Social Media Management", "Storytelling"]
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Belloverde Srl",
+      title: "Cameriere e Barman",
+      dateRange: "Apr 2025 - In corso",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Accoglienza e servizio clienti con attenzione e cortesia",
+        "Preparazione di cocktail e bevande ",
+        "Gestione delle comande e coordinamento con la cucina",
+        "Supporto nella gestione del locale per garantire un’esperienza piacevole agli ospiti",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Winebar Parsifal, Viale Val Padana, 101, 00141 Roma",
+      title: "Addetto alla Gestione",
+      dateRange: "Nov 2024 - Dic 2024",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Gestione completa del locale, incluse apertura e chiusura",
+        "Preparazione di cocktail e supporto in cucina",
+        "Servizio ai clienti e gestione delle comande",
+        "Mantenimento degli standard di pulizia e ordine del locale",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Strutture Private (piscina)",
+      title: "Assistente alla Sicurezza e Manutenzione",
+      dateRange: "2022 - 2024",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Sicurezza dei bagnanti, pronto intervento e primo soccorso in emergenza",
+        "Manutenzione dell'area piscina e delle attrezzature",
+        "Supervisione e assistenza per garantire il rispetto delle norme di sicurezza",
       ],
     },
   ],
   education: [
-      {
+    {
       school: "Diploma di Maturità Scientifica",
       degree: "Liceo Scientifico Pacinotti-Archimede",
       dateRange: "2019-2024",
@@ -85,7 +88,7 @@ export const siteConfig = {
       degree: "Laura in Informatica (in corso)",
       dateRange: "2025-Present",
       achievements: [
-        "Media voto 31/30",
+        "Media voto X/30",
         "Corso di laurea triennale in Informatica",
       ],
     },
@@ -95,7 +98,7 @@ export const siteConfig = {
       dateRange: "04/2025 - 12/2025",
       achievements: [
         "670 ore di corso",
-        "Esame finale con voto 2000/30",
+        "Esame finale con voto X/30",
         "Sviluppo web Java + Angular",
       ],
     },

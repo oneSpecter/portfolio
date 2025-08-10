@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "online": "node /Users/andrea/Desktop/devportfolio-master/dist/server/entry.mjs",
+    "online": "node ./dist/server/entry.mjs",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",

@@ -1,5 +1,3 @@
-import Cv from "./components/Cv.astro";
-
 export const siteConfig = {
   name: "Andrea Blasetti",
   title: "Studente di informatica",
@@ -8,8 +6,8 @@ export const siteConfig = {
   dkbackgroundColor: "#000023",
   social: {
     email: "andreaablasetti@gmail.com",
-    linkedin: "https://linkedin.com/in/",
-    twitter: "https://x.com/",
+    linkedin: "https://www.linkedin.com/in/andreablasetti/",
+    instagram: "https://x.com/",
     github: "https://github.com/",
   },
   aboutMe:

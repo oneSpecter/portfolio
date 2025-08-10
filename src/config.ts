@@ -7,8 +7,8 @@ export const siteConfig = {
   social: {
     email: "andreaablasetti@gmail.com",
     linkedin: "https://www.linkedin.com/in/andreablasetti/",
-    instagram: "https://x.com/",
-    github: "https://github.com/",
+    instagram: "https://www.instagram.com/andre.blasetti/",
+    github: "https://github.com/oneSpecter",
   },
   aboutMe:
     "Sono Andrea Blasetti, appassionato di informatica e tecnologie, con un background che unisce competenze tecniche e capacità relazionali. Attualmente studio Informatica presso La Sapienza, dove coltivo il mio interesse per la programmazione e l’innovazione digitale. Parallelamente, ho maturato esperienze lavorative in contesti diversi: dalla gestione completa di un locale come addetto alla ristorazione, al ruolo di assistente bagnante, fino a servizi di babysitting e tutoraggio privato. Questi percorsi mi hanno permesso di sviluppare organizzazione, problem solving, spirito di adattamento e comunicazione efficace. Lo sport ha avuto un ruolo fondamentale nella mia formazione personale: il calcio e, soprattutto, cinque anni di pallanuoto agonistica mi hanno insegnato disciplina, lavoro di squadra e resilienza. Mi considero una persona curiosa, veloce nell’apprendere e motivata a crescere, sempre pronta a mettersi in gioco per raggiungere obiettivi ambiziosi.",

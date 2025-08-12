@@ -5,8 +5,8 @@ import node from '@astrojs/node';
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
-  site: 'https://TUONOME.github.io',
-  base: '/NOME-REPO/',
+  site: 'https://oneSpecter.github.io',
+  base: '/portfolio/',
   outDir: 'dist',
   output: 'static',  
 });

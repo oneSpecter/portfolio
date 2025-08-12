@@ -6,6 +6,7 @@
     "online": "node ./dist/server/entry.mjs",
     "dev": "astro dev",
     "build": "astro build",
+    "preview": "astro preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
@@ -19,6 +20,6 @@
     "autoprefixer": "^10.4.21",
     "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.3"
+    "tailwindcss": "^3.4.17"
   }
 }

@@ -1,10 +1,10 @@
-import { defineConfig } from "astro/config";
-import tailwind from "@astrojs/tailwind";
+import { defineConfig } from 'astro/config';
+import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
-  integrations: [tailwind()],
-  site: 'https://oneSpecter.github.io',
   base: '/portfolio/',
+  site: 'https://onespecter.github.io/portfolio/',
+  integrations: [tailwind()],
   outDir: 'dist',
   output: 'static',
 });

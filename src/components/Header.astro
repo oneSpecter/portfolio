@@ -87,6 +87,16 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
       navLinks.classList.toggle("flex");
     });
 
+    // Chiudi il menu al click su un link (mobile)
+    navLinks.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => {
+        if (window.innerWidth < 640) { // sm breakpoint
+          navLinks.classList.add("hidden");
+          navLinks.classList.remove("flex");
+        }
+      });
+    });
+
     // Tema iniziale
     applyThemeFromStorage();
 

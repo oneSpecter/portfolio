@@ -12,12 +12,12 @@ export const siteConfig = {
   },
   aboutMe:
     "Sono Andrea Blasetti, appassionato di informatica e tecnologie, con un background che unisce competenze tecniche e capacità relazionali. Attualmente studio Informatica presso La Sapienza, dove coltivo il mio interesse per la programmazione e l’innovazione digitale. Parallelamente, ho maturato esperienze lavorative in contesti diversi: dalla gestione completa di un locale come addetto alla ristorazione, al ruolo di assistente bagnante, fino a servizi di babysitting e tutoraggio privato. Questi percorsi mi hanno permesso di sviluppare organizzazione, problem solving, capacità di adattamento e comunicazione efficace. Lo sport ha avuto un ruolo fondamentale nella mia formazione personale: il calcio e, soprattutto, cinque anni di pallanuoto agonistica mi hanno insegnato disciplina, lavoro di squadra e resilienza. Mi considero una persona curiosa, veloce nell’apprendere e motivata a crescere, sempre pronta a mettersi in gioco per raggiungere obiettivi ambiziosi.",
-  skills: ["Java", "React", "Node.js", "Python", "MongoDB"],
+  skills: ["Java", "Angular", "JavaScript", "Python", "MongoDB", "mySQL", "REST API"],
   projects: [
     {
       name: "Harmoninq",
       description:
-        "Applicazione web per la gestione della propria libreria musicale, con funzionalità di creazione di playlist, caricamento di brani e integrazione con un convertitore da YouTube. Realizzata con architettura full-stack basata su Node.js e MongoDB.",
+      "Applicazione web full-stack per la gestione della libreria musicale personale, con funzionalità di creazione di playlist, caricamento di brani e integrazione con un convertitore da YouTube. Realizzata con Node.js e MongoDB. *Progetto attualmente in fase di sviluppo*",
       link: "https://github.com/oneSpecter/harmoninq.git",
       skills: ["Node.js", "Python", "REST API", "User Authentication", "Testing", "Full-stack Development"]
     },
@@ -40,33 +40,33 @@ export const siteConfig = {
     {
       company: "Belloverde Srl",
       title: "Cameriere e Barman",
-      dateRange: "Apr 2025 - In corso",
+      dateRange: "Apr 2025 - oggi",
       bullets: [
-        "Accoglienza e servizio clienti con attenzione e cortesia",
-        "Preparazione di cocktail e bevande",
-        "Gestione delle comande e coordinamento con la cucina",
-        "Supporto nella gestione del locale per garantire un’esperienza piacevole agli ospiti",
+        "Gestione del servizio ai clienti con approccio orientato alla qualità e all'efficienza",
+        "Preparazione professionale di cocktail e bevande, con attenzione ai dettagli e alla presentazione",
+        "Coordinamento costante con la cucina per garantire tempi di servizio ottimali e comunicazione efficace",
+        "Supporto nella gestione operativa del locale, sviluppando capacità organizzative e problem solving in ambienti dinamici",
       ],
     },
     {
-      company: "Winebar Parsifal, Viale Val Padana, 101, 00141 Roma",
-      title: "Addetto alla Gestione",
-      dateRange: "Nov 2024 - Dic 2024",
+      company: "Winebar Parsifal – Roma, Italia",
+      title: "Cameriere e Responsabile di Sala",
+      dateRange: "2022 – 2024",
       bullets: [
-        "Gestione completa del locale, incluse apertura e chiusura",
-        "Preparazione di cocktail e supporto in cucina",
-        "Servizio ai clienti e gestione delle comande",
-        "Mantenimento degli standard di pulizia e ordine del locale",
+        "Gestione operativa del locale e coordinamento del personale durante le ore di punta",
+        "Organizzazione e ottimizzazione dei flussi di lavoro per migliorare efficienza e tempi di servizio",
+        "Gestione dei rapporti con i clienti, problem solving e capacità di lavorare sotto pressione",
+        "Applicazione di un approccio sistematico alla risoluzione dei problemi e al miglioramento continuo del servizio",
       ],
     },
     {
-      company: "Strutture Private (piscina)",
-      title: "Assistente alla Sicurezza e Manutenzione",
-      dateRange: "2022 - 2024",
+      company: "ASD Roma 2020",
+      title: "Atleta di Pallanuoto Agonista",
+      dateRange: "2018 – 2025",
       bullets: [
-        "Sicurezza dei bagnanti, pronto intervento e primo soccorso in emergenza",
-        "Manutenzione dell’area piscina e delle attrezzature",
-        "Supervisione e assistenza per garantire il rispetto delle norme di sicurezza",
+        "Allenamenti regolari e partecipazione a competizioni in contesti altamente competitivi",
+        "Sviluppo di disciplina, concentrazione e resilienza",
+        "Collaborazione costante in team per il raggiungimento di obiettivi comuni",
       ],
     },
   ],
@@ -85,7 +85,7 @@ export const siteConfig = {
       degree: "Laurea in Informatica (in corso)",
       dateRange: "2025-Present",
       achievements: [
-       //"Media voto X/30",
+        //"Media voto X/30",
         "Corso di laurea triennale in Informatica",
       ],
     },
@@ -94,7 +94,7 @@ export const siteConfig = {
       degree: "Developer Certificate",
       dateRange: "04/2025 - 12/2025",
       achievements: [
-        "670 ore di corso",
+        "570 ore di corso",
         //"Esame finale con voto X/30",
         "Sviluppo web Java + Angular",
       ],
@@ -102,7 +102,7 @@ export const siteConfig = {
   ],
   Cv: [{
     title: "Vuoi un .pdf?",
-    link: "/Cv.pdf",
+    link: "./Cv.pdf",
     download: "Andrea Blasetti Cv.pdf",
   }]
 }

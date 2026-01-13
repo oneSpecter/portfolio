@@ -17,7 +17,7 @@ URL del portfolio: [text](https://onespecter.github.io/portfolio/)
 
 1. **Clona il repository**
    ```sh
-   git clone https://github.com/tuo-username/nome-repo.git
+   git clone https://github.com/oneSpecter/nome-repo.git
    cd nome-repo
    ```
 

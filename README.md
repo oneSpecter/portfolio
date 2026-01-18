@@ -2,7 +2,7 @@
 
 Questo è il mio portfolio personale, basato sul template open source di [Ryan Fitzgerald](https://github.com/RyanFitzgerald/devportfolio) e personalizzato da me per rispecchiare il mio stile e le mie esigenze.
 
-URL del portfolio: [text](https://onespecter.github.io/portfolio/)
+URL del portfolio: [https://onespecter.github.io/portfolio/]
 
 ## Caratteristiche
 
